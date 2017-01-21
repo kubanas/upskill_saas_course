@@ -40,9 +40,34 @@ h1, h2, h3 {
   }
 }
 
+.navbar{
+  border:none;
+}
+
+.navbar-brand{
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  
+}
+
 .fa {
   margin-right: 1px;
 }
+
+
+//Mobile
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+  
+}
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus{
+    background-color:#00c6ff;
+  }
+}
+
+
 
 // Homepage style
 .home-callout{
@@ -53,14 +78,6 @@ h1, h2, h3 {
   
 }
 
-.navbar{
-  border:none;
-}
 
-.navbar-brand{
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
-  
-}
 
 
