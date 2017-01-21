@@ -17,6 +17,9 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
  
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
 // Typography Style
 h1, h2, h3 {
   font-family: 'Roboto', sans-serif;
@@ -35,6 +38,10 @@ h1, h2, h3 {
     color:white;
     opacity: 0.75;
   }
+}
+
+.fa {
+  margin-right: 10px;
 }
 
 // Homepage style
