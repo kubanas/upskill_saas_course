@@ -41,7 +41,7 @@ h1, h2, h3 {
 }
 
 .fa {
-  margin-right: 10px;
+  margin-right: 1px;
 }
 
 // Homepage style
@@ -57,5 +57,10 @@ h1, h2, h3 {
   border:none;
 }
 
+.navbar-brand{
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  
+}
 
 
