@@ -29,10 +29,17 @@ gem 'jbuilder', '2.5.0'
 # gem 'capistrano-rails', group: :development
 # Use Twitter-Bootstrap Libary for Front-End UI and Layout
 gem "bootstrap-sass", "3.3.7" 
+
 # Use Font Awesome SASS Gem for Adding Icons
 gem "font-awesome-sass", "4.6.2"
+
 # Use Hirb for better database display in console
 gem "hirb", "0.7.3"
+
+# Use Devise for user authentication 
+gem "devise", "4.2.0"
+
+
 group :development, :test do
   # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
